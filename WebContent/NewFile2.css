@@ -1,0 +1,45 @@
+body
+{
+	background: #1e2732;
+	background-size:800px 500px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	
+}
+
+.specialImage{
+  position:fixed;
+  bottom:4%;
+  right:3%;
+  z-index:100; /* or higher/lower depending on other elements */
+}
+
+.button {
+    background-color: white;
+    border-width:1px;
+    border-color:black;
+    color: black;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 1px;
+    border-radius:10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    required;
+}
+
+.button5 {
+	border-radius:25px;
+    background-color: white;
+    color: #ee6600;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: #ee6600;
+    color: black;
+}

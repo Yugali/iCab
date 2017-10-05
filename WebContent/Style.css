@@ -1,0 +1,79 @@
+#abovethefold{
+	background: #1e2732;
+	height: 759px;
+	text-align: center;
+	color: #fff;
+	
+}
+
+h1
+{
+		font-family: 'Source Sans Pro';
+		font-weight: 300;
+		font-size: 3em;
+		padding-top: 325px;
+		
+}
+h2
+{
+		font-family: 'Source Sans Pro';
+		font-weight: 300;
+		font-size: 3em;
+		padding-top: 25px;
+		
+		
+}
+#scroll{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+	
+	color: black;
+	
+}
+#scroll1{
+	background: #1e2732;
+	height: 759px;
+	color: #fff;
+	background: #1e2732;
+	margin-top: 50px;
+	
+	
+}	
+
+#scroll img{
+	position: relative;
+}	
+
+.animate{
+	transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+	-webkit-transition: 2s ease-in-out;
+	
+	-webkit-animation-fill-node: forwards;
+	-moz-animation-fill-node: forwards;
+	animation-fill-node: forwards;
+	
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	animation-duration: 1s;
+}
+#phone{
+	z-index: 2;
+}
+#phone.animate{
+	transform: translate(30em,0);
+	-moz-transform: translate(30em,0);
+	-webkit-transform: translate(30em,0);
+}
+#phone1.animate{
+	transform: translate(-30em,0);
+	-moz-transform: translate(-30em,0);
+	-webkit-transform: translate(-30em,0);
+}
+
+#tablet.animate{
+	transform: translate(-10em,0);
+	-moz-transform: translate(-10em,0);
+	-webkit-transform: translate(-10em,0);
+}

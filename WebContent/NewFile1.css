@@ -1,0 +1,84 @@
+body
+{
+	
+	background: #1e2732;
+	height: 759px;
+	text-align: center;
+	color: #fff;
+	
+}
+	
+h2
+{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		font-size: 1.5em;
+		padding-bottom: 40px;
+		padding-left: 1px;
+		
+}
+h3
+{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		font-size: 1.4em;
+		
+}
+
+.specialImage{
+  position:fixed;
+  bottom:4%;
+  right:3%;
+  z-index:100; /* or higher/lower depending on other elements */
+}
+
+.button {
+    background-color: white;
+    border-width:1px;
+    border-color:black;
+    color: black;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 2px 1px;
+    border-radius:10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+h1
+{
+		font-family: 'Source Sans Pro';
+		font-weight: 300;
+		font-size: 3em;
+		padding-bottom: 50px;
+		
+}
+h4
+{
+		font-family: 'Source Sans Pro';
+		font-weight: 300;
+		font-size: 2em;
+		
+}
+h5
+{
+		font-family: 'Source Sans Pro';
+		font-weight: 300;
+		font-size: 1.2em;
+		
+}
+
+.button5 {
+	border-radius:25px;
+    background-color: #1e2732;
+    color: #ee6600;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: #ee6600;
+    color: black;
+}
